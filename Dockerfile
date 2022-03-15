@@ -1,6 +1,6 @@
 FROM alpine:3.10
 
-LABEL org.opencontainers.image.source=https://github.com/fqx/podsync-with-yt-dlp
+LABEL org.opencontainers.image.source=https://github.com/jesteree/podsync-with-yt-dlp
 
 WORKDIR /app/
 RUN wget -O /usr/bin/youtube-dl https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp && \
